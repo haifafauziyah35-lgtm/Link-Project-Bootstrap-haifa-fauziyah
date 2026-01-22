@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Membuat Website Product </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <style>
+      body {
+        background-color: antiquewhite;
+      }
+
+      hr {
+        height: 10px;
+      }
+
+      .jumbroton {
+        background-color: antiquewhite;
+        color: rgb(28, 53, 99);
+        text-align: center;
+        padding: 2rem;
+      }
+  
+      #footer{
+        width: 100%;
+        background-color: antiquewhite;
+        box-shadow: 0px 0px 5px hite;
+        margin-top: 100px;
+      }
+
+      #footer h1{
+        color: rgb(28, 53, 99) ;
+        padding-top: 30px;
+      }
+      #footer p{
+        color: rgb(28, 53, 99);
+      }
+      .copyright{
+        color: white;
+        margin-top: 20px;
+      }
+      .credite{
+        color: white;
+      }
+      
+      
+    </style>
+  </head>
+<body>
+
+  <!--CDN link-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <!--navbar-->
+    <nav class="navbar navbar-expand-lg" style="background-color: antiquewhite;">
+        <div class="container">
+            <img src="img/logo.jpg" alt="logo" style="height: 90px ; margin-right: 20px; border-radius: 2rem; ">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+           <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home" style="color: black;"> Home   </a> </li>
+            <li class="nav-item"><a class="nav-link" href="#product" style="color: black;">Product</a> </li>
+            <li class="nav-item"><a class="nav-link" href="#about" style="color: black;">About</a> </li>
+           <li class="nav-item"><a class="nav-link" href="#contact" style="color: black;">Contact</a> </li>
+          </ul>
+        </div>
+       </div>
+    </nav>
+
+    <!--Section-->
+<section id="home">
+
+      <!--carousel-->
+      <div id="carouselExampleIndicators" class="carousel slide" >
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/benner1.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/benner2.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/benner3.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!--jumbotron-->
+      <hr>
+      <div class="jumbroton"> 
+<h1 class="display-5 fw-bold">Haifa SHOP</h1>
+<h1>(SELAMAT DATANG DI TOKO HAIFA SHOP)</h1>
+      </div>
+      <hr>
+
+   <!--Best seller card-->
+    <div style="margin: 10px;">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/baju tidur 1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><b>Best Seller</b></h5>
+              <p class="card-text"><b>baju tidur</b> terbaik wanita dengan bahan yang nyaman dan lembut</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary" >Rp.40.000</small>
+              <a href="#" class="btn btn-primary" style="margin-right: auto;">Go to buy</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/celana panjang 1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><b>Best Seller</b>
+              </h5>
+              <p class="card-text"><b>celana panjang</b> yang sesuai dengan gaya Anda kemanapun Anda pergi! </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary" >Rp.45.000</small>
+              <a href="#" class="btn btn-primary" style="margin-right: auto;">Go to buy</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/kemeja 1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><b>Best Seller</b></h5>
+              <p class="card-text"><b>kemeja</b> dengan lengan panjang dan nyaman dipakai!</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary" >Rp.50.000</small>
+              <a href="#" class="btn btn-primary" style="margin-right: auto;">Go to buy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--section product-->
+<section id="product">
+
+       <!--jumbotron-->
+       <hr>
+       <div class="jumbroton" style="margin-top: 10px;"> 
+        <h1 class="display-5 fw-bold">Product</h1>
+        </div>
+
+<!--product-->
+<div style="margin: auto; margin-top: 10px;">
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/baju tidur 2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><b>baju tidur kotak-kotak</b></h5>
+        <p class="card-text"><b></b> </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary" >Rp.40.000</small>
+        <button type="button" class="btn btn-blue" data-bs-toggle="modal" data-bs-target="#product1a" style="margin-right: auto; background-color: blue; color: white;" >Detail</button>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div class="card h-100">
+    <img src="img/celana panjang 2.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><b>celana panjang</b></h5>
+      <p class="card-text"><b></b></p>
+    </div>
+    <div class="card-footer">
+      <small class="text-body-secondary" >Rp.45.000</small>
+      <button type="button" class="btn btn-blue" data-bs-toggle="modal" data-bs-target="#product1b" style="margin-right: auto; background-color: blue; color: white;" >Detail</button>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div class="card h-100">
+    <img src="img/kemeja 2.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><b>kemeja wanita</b></h5>
+      <p class="card-text">salur<b></b></p>
+    </div>
+    <div class="card-footer">
+      <small class="text-body-secondary" >Rp.55.000</small>
+      <button type="button" class="btn btn-blue" data-bs-toggle="modal" data-bs-target="#product1c" style="margin-right: auto; background-color: blue; color: white;" >Detail</button>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div class="card h-100">
+    <img src="img/kaos panjang.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><b>kaos panjang</b></h5>
+      <p class="card-text"><b></b></p>
+    </div>
+    <div class="card-footer">
+      <small class="text-body-secondary" >Rp.45.000</small>
+      <button type="button" class="btn btn-blue" data-bs-toggle="modal" data-bs-target="#product1d" style="margin-right: auto; background-color: blue; color: white;" >Detail</button>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div class="card h-100">
+    <img src="img/rok 1.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><b>rok wanita</b></h5>
+      <p class="card-text"><b></b></p>
+    </div>
+    <div class="card-footer">
+      <small class="text-body-secondary" >Rp.50.000</small>
+      <button type="button" class="btn btn-blue" data-bs-toggle="modal" data-bs-target="#product1e" style="margin-right: auto; background-color: blue; color: white;" >Detail</button>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div class="card h-100">
+    <img src="img/rok 2.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><b>rok wanita</b></h5>
+      <p class="card-text"><b></b></p>
+    </div>
+    <div class="card-footer">
+      <small class="text-body-secondary" >Rp.60.000</small>
+      <button type="button" class="btn btno-blue" data-bs-toggle="modal" data-bs-target="#product1f" style="margin-right: auto; background-color: blue; color: white;" >Detail</button>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div class="card h-100">
+    <img src="img/hijab 1.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><b>hijab segi empat</b></h5>
+      <p class="card-text"><b></b> </p>
+    </div>
+    <div class="card-footer">
+      <small class="text-body-secondary" >Rp.40.000</small>small>
+      <button type="button" class="btn btn-blue" data-bs-toggle="modal" data-bs-target="#product1g" style="margin-right: auto; background-color: blue; color: white;" >Detail</button>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div class="card h-100">
+    <img src="img/hijab 2.jpg"card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">pasmina silk
+      <p class="card-text"><b></b> )</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-body-secondary" >Rp.60.000>/small>
+      <button type="button" class="btn btn-blue" data-bs-toggle="modal" data-bs-target="#product1h" style="margin-right: auto; background-color: blue; color: white;" >Detail</button>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div class="card h-100">
+    <img src="img/hijab 3.jpg"card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><b>hijab segi empat instan
+      <p class="card-text"><b></b> </p>
+    </div>
+    <div class="card-footer">
+      <small class="text-body-secondary" >Rp.77.000>/small>
+      <button type="button" class="btn btn-blue" data-bs-toggle="modal" data-bs-target="#product1i" style="margin-right: auto; background-color: blue; color: white;" >Detail</button>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="product1a" tabindex="-1" aria-labelledby="product1a" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="product1a">Baju Tidur</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Baju tidur adalah pakaian yang dirancang untuk dipakai saat tidur atau bersantai di rumah. Baju tidur juga disebut piyama atau pajamas.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Buy</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="product1b" tabindex="-1" aria-labelledby="product1b" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="product1b">Celana Panjang</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p> Celana panjang wanita adalah pakaian yang dikenakan dari pinggang hingga ke lutut atau mata kaki. Celana panjang wanita dapat digunakan untuk berbagai acara, baik formal maupun non-formal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Buy</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="product1c" tabindex="-1" aria-labelledby="product1c" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="product1c">Kemeja Wanita</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p> Kemeja wanita adalah pakaian atasan yang menutupi dada, bahu, lengan, dan perut. Kemeja wanita dapat digunakan untuk acara formal maupun non-formal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Buy</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="product1d" tabindex="-1" aria-labelledby="product1d" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="product1d">Kaos Panjang </h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Kaos panjang wanita adalah kaos yang memiliki lengan panjang. Kaos panjang wanita bisa digunakan pada musim panas maupun hujan. Memiliki bahan kaos pada umumnya
+          Lengannya panjang, menutupi keseluruhan bagian lengan mulai dari bahu hingga pergelangan tangan</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Buy</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="product1e" tabindex="-1" aria-labelledby="product1e" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="product1e">Rok Wanita</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Rok wanita adalah pakaian yang dikenakan dari pinggang ke bawah, bisa sebagai bagian dari gaun atau pakaian luar terpisah. Rok merupakan salah satu pakaian yang populer di kalangan wanita karena dapat memberikan kesan feminin dan elegan.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Buy</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="product1f" tabindex="-1" aria-labelledby="product1f" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="product1f">Rok wanita</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Rok wanita adalah pakaian yang dikenakan dari pinggang ke bawah, bisa sebagai bagian dari gaun atau pakaian luar terpisah. Rok merupakan salah satu pakaian yang populer di kalangan wanita karena dapat memberikan kesan feminin dan elegan.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Buy</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="product1g" tabindex="-1" aria-labelledby="product1g" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="product1g">Hijab Segiempat</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Kerudung segi empat adalah kerudung yang berbentuk persegi dengan panjang dan lebar yang sama. Kerudung ini termasuk salah satu model kerudung yang paling populer dan banyak digunakan oleh muslimah.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Buy</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="modal fade" id="product1h" tabindex="-1" aria-labelledby="product1h" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="product1h">Hijab Pasmina silk </h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Pashmina silk adalah kerudung model persegi panjang, yang terbuat dari bahan silk. Bahan silk adalah jenis kain yang ditenun dengan menggunakan teknik serat filamen, sehingga punya ciri khas permukaan yang mengkilap dan licin. Tapi untuk bagian dalam atau belakangnya, kain silk ini nggak licin dan nggak mengkilap.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Buy</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="product1i" tabindex="-1" aria-labelledby="product1i" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="product1i">Hijab Segiempat Instan</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p> yang terbuat dari biji kedelai yang difermentasi dengan Bacillus subtilis, biasanya dimakan untuk sarapan. Sebagai sumber protein dan probiotika yang kaya, nattō dan miso dulunya merupakan sumber gizi utama pada zaman feodal di Jepang. Tidak semua orang menyukai makan nattō karena tidak menyukai bau dan aromanya yang kuat, atau teksturnya yang licin. Di Jepang, nattō paling disukai oleh orang di wilayah timur, termasuk wilayah Kanto, Tohoku, dan Hokkaido.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Buy</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<!--section about-->
+        <section id="about">
+
+          <!--Jumbroton-->
+          <hr>
+          <div class="jumbroton" style="margin-top: 10px; margin-left: auto;"> 
+           <h1 class="display-5 fw-bold">About us</h1>
+                 </div>
+
+<!--about-->
+<div style="margin: auto;">
+<div class="accordion" id="accordionExample" >
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Haifa SHOP
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Haifa SHOP</strong> Merupakan merupakan toko yang menjual berbagai pakaian muslim.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Sejarah
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Haifa SHOP</strong>merupakan sebuah project Haifa Fauziyah yang menggunakan Bootstrap pada tanggal 30 Januari 2025
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Visi
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Menjadi toko pakaian dengan harga murah kualitas bagus
+      </div>
+    </div>
+  </div>
+</div>
+<div class="accordion-item">
+  <h2 class="accordion-header">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+      Misi
+    </button>
+  </h2>
+  <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+    <ol>
+      <li>Menciptakan pakaian berkualitas tinggi yang menginspirasi percaya diri,keindahan,dan ekspresi diri</li>
+      <li>Memberikan pelayanan terbaik kepada konsumen</li>
+      <li>Menghasilkan pakaian muslim yang nyaman,modis,dan sesuai dengan nilai keagamaan</li>
+    </ol>
+    </div>
+  </div>
+</div>
+</div>
+
+<!--Jumbroton team-->
+<hr>
+  <div class="jumbroton" style="margin-top: 10px; margin-left: auto;">
+   <h1 class="display-5 fw-bold">Our team</h1>
+   </div>
+
+<!--Our team-->
+<div style="margin: auto; margin-top: 10px ;">
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title"><b>TIM MANAJEMEN & OPERASIONAL</b></h5>
+        <p class="card-text"><b></b> 
+
+          Owner/Founder – Pemilik bisnis yang menentukan visi dan strategi.
+          
+          Manager Toko – Mengelola operasional toko, mengawasi staf, dan memastikan target penjualan tercapai.
+          
+          Admin & Keuangan – Mengurus pencatatan keuangan, pembayaran, dan laporan keuangan.
+          
+          Customer Service – Melayani pelanggan, menangani pertanyaan, dan menyelesaikan keluhan.
+        </p>
+      </div>
+      <div class="card-footer">
+        <button type="button" class="btn btn-blue" data-bs-toggle="modal" data-bs-target="#team1a" style="margin-right: auto; background-color: blue; color: white;" >Members</button>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div class="card h-100">
+    <div class="card-body">
+      <h5 class="card-title"><b>TIM PRODUKSI & DESAIN</b></h5>
+      <p class="card-text"><b>
+
+        Desainer Fashion – Merancang model pakaian sesuai tren dan kebutuhan pasar muslim.
+        
+        Tim Produksi – Menjahit, memotong kain, dan memastikan kualitas produk.
+        
+        Quality Control (QC) – Mengecek kualitas bahan dan hasil akhir produk sebelum dijual.
+        </p>
+    </div>
+    <div class="card-footer">
+      <button type="button" class="btn btn-blue" data-bs-toggle="modal" data-bs-target="#team1b" style="margin-right: auto; background-color: blue; color: white;" >Members</button>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div class="card h-100">
+    <div class="card-body">
+      <h5 class="card-title"><b>TIM PEMASARAN & PENJUALAN</b></h5>
+      <p class="card-text"><b></b>
+
+        Marketing Digital – Mengelola media sosial, iklan online, dan kampanye promosi.
+        
+        Fotografer & Videografer – Membuat konten visual untuk katalog dan promosi.
+        
+        Tim E-commerce – Mengelola website dan marketplace seperti Shopee, Tokopedia, atau Lazada.
+        
+        Sales & Kasir – Melayani transaksi dan membantu pelanggan di toko fisik.</p>
+    </div>
+    <div class="card-footer">
+      <button type="button" class="btn btn-blue" data-bs-toggle="modal" data-bs-target="#team1c" style="margin-right: auto; background-color: blue; color: white;" >Members</button>
+    </div>
+  </div>
+</div>
+
+<!--modal team-->
+<div class="modal fade" id="team1a" tabindex="-1" aria-labelledby="teamt1a" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="team1a">BAJU</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <ol>
+          <li>MISKA</li>
+          <li>RENDY</li>
+          <li>CLEORA</li>
+        </ol>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="team1b" tabindex="-1" aria-labelledby="team1b" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="team1b">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <ol>
+          <li>ARA</li>
+          <li>MELII</li>
+          <li>IFAA</li>
+        </ol>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="team1c" tabindex="-1" aria-labelledby="team1c" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="team1c">DOCUMENTATION</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <ol>
+          <li>RENI</li>
+          <li>MISA</li>
+          <li>KYRA</li>
+        </ol>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!---->
+<section id="contact">
+
+<!--Jumbroton team-->
+
+  <div class="jumbroton" style="margin-top: 20px; margin-bottom: 20px;">
+   <h1 class="display-5 fw-bold">Contact</h1>
+   <hr>
+   </div>
+
+
+<!--Contact-->
+<div class="container">
+  <div class="row">
+
+      <!-- Bagian Peta -->
+      <div class="col-md-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12945.250981816282!2d108.25220079976573!3d-6.8401386181111405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f2547177d2d01%3A0x69619101d88cde1a!2sPerumahan%20Sindangkasih!5e0!3m2!1sid!2sid!4v1740015148350!5m2!1sid!2sid" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <!-- Bagian Form -->
+      <div class="col-md-6">
+          <form>
+            <label for="exampleFormControlInput1" class="form-label">Name</label>
+            <input type="name" class="form-control" id="nama" placeholder="Masukkan nama anda">
+            
+              <div class="mb-6">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="Masukkan email anda">
+              </div>
+              <div class="mb-6">
+                  <label for="subject" class="form-label">Subject</label>
+                  <input type="text" class="form-control" id="subject" placeholder="Masukkan subjectnya">
+              </div>
+              <div class="mb-">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" id="message" rows="3" placeholder="Masukkan pesan yang ingin anda sampaikan"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send</button>
+          </form>
+      </div>
+  </div>
+</div>
+  <!--footer-->
+<footer id="footer" data-aos="fade-up" data-aos-duration="1500">
+  <h1 style="text-align: center;">Haifa SHOP</h1>
+  <p style="text-align: center;"></p>
+  <div class="credite text-center">
+    <p>follow for more :
+    <a href=""> <svg xmlns="https://www.youtube.com/@haifafauziyah626" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+      <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+    </svg></a>
+    <a href="https://www.instagram.com/haifafzyh._?utm_source=qr&igsh=MTdpOTYzZmVma2swdA=="><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+      <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+    </svg></a>
+    <a href="https://www.linkedin.com/in/haifa-fauziyah-a86551331/?originalSubdomain=id/"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+      <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+    </svg></a>
+  </div>
+  <div class="credite text-center">
+    <p><a href="" >CREATED BY HAIFA FAUZIYAH</a>. | &copy; 2025.</p>
+  </div>
+</footer>
+
+  </body>
+</html>
